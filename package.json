@@ -1,0 +1,38 @@
+{
+  "name": "nadeshiko",
+  "version": "^1.0.0",
+  "description": "A fun Discord bot written in Node.js!",
+  "main": "index.js",
+  "dependencies": {
+    "@top-gg/sdk": "^3.0.7",
+    "axios": "^0.21.1",
+    "canvas": "^2.6.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "html-entities": "^2.1.0",
+    "humanize-duration": "^3.25.1",
+    "i18n": "^0.13.2",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.14",
+    "node-fetch": "^2.6.1",
+    "topgg-autoposter": "^1.1.6"
+  },
+  "scripts": {},
+  "author": "szyven",
+  "license": "Apache License, Version 2.0",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/lodash": "^4.14.168",
+    "@types/node-fetch": "^2.5.8",
+    "husky": "^5.1.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1",
+    "pretty-quick": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

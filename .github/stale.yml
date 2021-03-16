@@ -1,0 +1,23 @@
+daysUntilStale: 21
+daysUntilClose: 7
+
+exemptLabels: 
+- pinned
+- important
+
+staleLabel: inactive
+
+markComment: >
+  This issue has been marked with the "inactive" label due to the lack of activity in the past 21 days.
+  This issue will be closed in 7 days if no activity occurs.
+  Thank you for your contribution so far!
+
+unmarkComment: >
+  Removed the "inactive" label!
+
+closeComment: >
+  This issue has been closed due to inactivity.
+  Please create a new issue if you think this is important!
+  Thank you for your contribution!
+
+limitPerRun: 45

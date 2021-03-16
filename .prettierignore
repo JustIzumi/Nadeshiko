@@ -1,0 +1,8 @@
+# Node Modules
+node_modules/
+
+# ENV
+.env
+
+# COMPILED JS
+dist/

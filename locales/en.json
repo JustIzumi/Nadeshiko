@@ -1,0 +1,268 @@
+{
+	"general": {
+		"normalFooter": "Requested by: {user}",
+		"categories": {
+			"animal": "Animal",
+			"anime": "Anime",
+			"currency": "Currency",
+			"dev": "Dev",
+			"fun": "Fun",
+			"gaming": "Gaming",
+			"image": "Image",
+			"meme": "Meme",
+			"moderation": "Moderation",
+			"reaction": "Reaction",
+			"utility": "Utility"
+		}
+	},
+	"errors": {
+		"noPerms": "You're not permitted to use this command!",
+		"cooldown": {
+			"embedTitle": "You're on cooldown!",
+			"desc": "Please wait {time} before using this command again!"
+		},
+		"normalError": "We ran into a problem! If this keeps happening, please contact the developer!"
+	},
+	"animalCommands": {
+		"birdDesc": "Get a random bird picture!",
+		"catDesc": "Get a random kitty picture!",
+		"catfactDesc": "Get an interesting cat fact!",
+		"dogDesc": "Get a random doggo picture!",
+		"dogfactDesc": "Get an interesting dog fact!",
+		"foxDesc": "Get a random fox picture!",
+		"koalaDesc": "Get a cute koala picture!",
+		"pandaDesc": "Get a random kitty picture!",
+		"redpandaDesc": "Get a random red panda picture!",
+		"shibeDesc": "Get a random shiba inu picture!"
+	},
+	"animeCommands": {
+		"anime": {
+			"desc": "Search for an anime on MAL!",
+			"noArgs": "What to search for?",
+			"noResult": "Couldn't find any anime with the name {anime}"
+		},
+		"character": {
+			"desc": "Search for a character on MAL!",
+			"noArgs": "What to search for?",
+			"noResult": "Couldn't find any characters with the name {character}"
+		},
+		"manga": {
+			"desc": "Search for a manga on MAL!",
+			"noArgs": "What to search for?",
+			"noResult": "Couldn't find any manga with the name {manga}"
+		},
+		"nekoDesc": "Get a random neko picture!"
+	},
+	"funCommands": {
+		"8ball": {
+			"desc": "You give a question, the magic 8ball gives an answer!",
+			"noArgs": "What question would you like to ask the magic 8ball?"
+		},
+		"apodDesc": "Get the \"Astronomy Picture of The Day\"! (APOD)",
+		"coin": {
+			"desc": "Flip a coin!",
+			"special": "The coin has transcended into another reality. I really doubt that you will every find it..."
+		},
+		"compliment": {
+			"desc": "Compliment someone!",
+			"noMention": "Who do you want to compliment?",
+			"selfMention": "Try choosing someone else!"
+		},
+		"dadjokeDesc": "Get a random dad joke!",
+		"jokeDesc": "Get a random joke from r/Jokes!",
+		"memeDesc": "Get a random meme from reddit!",
+		"owo": {
+			"desc": "Owoify a message!",
+			"noArgs": "What do you want to owoify?"
+		},
+		"roast": {
+			"desc": "Roast someone!",
+			"noMention": "Who to roast?",
+			"selfMention": "Try choosing someone else!"
+		},
+		"space": {
+			"desc": "S p a c e  o u t  s o m e  t e x t !",
+			"noArgs": "What text do you want to s p a c e out?"
+		},
+		"todayDesc": "Check what happened Today in History™️",
+		"triviaDesc": "Get a random trivia question!"
+	},
+	"imageCommands": {
+		"brazzersDesc": "Put the brazzers watermark on someones profile picture!",
+		"fireDesc": "Set someone's profile picture on fire!",
+		"gayDesc": "Make someone gay!",
+		"hackermanDesc": "Make someone a hackerman!",
+		"jailDesc": "Put someone in jail!",
+		"phcmt": {
+			"desc": "Comment something funny on PornHub!",
+			"noArgs": "What do you want to comment?"
+		},
+		"spank": {
+			"desc": "Spank someone!",
+			"noMention": "Who do you want to spank?",
+			"selfMention": "You can't spank yourself!"
+		},
+		"tableflipDesc": "Angry? Flip A table! That should calm you down...",
+		"triggerDesc": "T R I G G E R E D",
+		"tweet": {
+			"desc": "Tweet something!",
+			"noArgs": "What do you want to tweet?"
+		},
+		"wantedDesc": "Make a wanted poster of someone!"
+	},
+	"reactionCommands": {
+		"cry": {
+			"desc": "Get a random crying gif!",
+			"embedTitle": "{user} is crying"
+		},
+		"cuddle": {
+			"desc": "Cuddle with someone!",
+			"noMention": "Who do you want to cuddle with?",
+			"embedTitle": "{user} is cuddling with {user2}"
+		},
+		"feed": {
+			"desc": "Feed someone!",
+			"noMention": "Who do you want to feed?",
+			"embedTitle": "{user} is feeding {user2}"
+		},
+		"hug": {
+			"desc": "Hug someone!",
+			"embedTitle": "{user} hugged {user2}"
+		},
+		"kiss": {
+			"desc": "Kiss someone!",
+			"embedTitle": "{user} is kissing with {user2}"
+		},
+		"laugh": {
+			"desc": "HAHAHAHAHAHAHAHAH",
+			"embedTitle": "{user} is laughing"
+		},
+		"lick": {
+			"desc": "Lick someone!",
+			"embedTitle": "{user} just licked {user2}"
+		},
+		"pat": {
+			"desc": "Pat someone!",
+			"embedTitle": "{user} patted {user2}"
+		},
+		"poke": {
+			"desc": "Poke someone!",
+			"embedTitle": "{user} poked {user2}"
+		},
+		"slap": {
+			"desc": "Slap someone!",
+			"embedTitle": "{user} slapped {user2}. Ouch."
+		},
+		"smug": {
+			"desc": "Go smugging!",
+			"embedTitle": "{user} is smugging"
+		}
+	},
+	"utilityCommands": {
+		"avatarDesc": "Check someone's avatar in higher resolution!",
+		"help": {
+			"desc": "Get a list of all commands!",
+			"embedTitle": "Command list"
+		},
+		"ip": {
+			"desc": "Look up info about an IP adress!",
+			"fail": "Failed to process the request! Please try again!",
+			"noArgs": "Give an IP to look up!"
+		},
+		"define": {
+			"desc": "Define a word!",
+			"noResult": "Didn't find anything! Try searching for something else!",
+			"noArgs": "What word to define?"
+		},
+		"language": {
+			"desc": "Change the bots language!\nAvailable languages: {languages}",
+			"noArgs": "What to change the language to?",
+			"success": "Successfully changed the langauge to {language}"
+		},
+		"prefix": {
+			"desc": "Change the bots prefix!",
+			"noArgs": "What to change the prefix to?",
+			"success": "Successfully changed the prefix to {prefix}"
+		},
+		"server": {
+			"desc": "Get information on the current server!",
+			"id": "Server ID",
+			"serverOwner": "Server owner",
+			"serverOwnerId": "Server owner ID",
+			"creationDate": "Creation date",
+			"serverRegion": "Server region",
+			"memberCount": "Member count",
+			"boostCount": "Server boost count",
+			"boostLevel": "Boost level",
+			"channelCount": "Channel count",
+			"roleCount": "Role count",
+			"regions": {
+				"brazil": "Brazil",
+				"centralEurope": "EU Central",
+				"europe": "Europe",
+				"singapore": "Singapore",
+				"usCentral": "U.S. Central",
+				"sydney": "Sydney",
+				"usEast": "U.S. East",
+				"usSouth": "U.S. South",
+				"usWest": "U.S. West",
+				"euWest": "EU West",
+				"vipUsEast": "U.S. East",
+				"london": "London",
+				"amsterdam": "Amsterdam",
+				"hongkong": "Hong Kong",
+				"russia": "Russia",
+				"southAfrica": "South Africa"
+			}
+		},
+		"shorten": {
+			"desc": "Shorten an URL!",
+			"noArgs": "What URl do you want to shorten?",
+			"invalidUrl": "The URL you supplied was invalid! Maybe try again?"
+		},
+		"stats": {
+			"desc": "Check the bots stats!",
+			"ping": "Ping",
+			"uptime": "Uptime",
+			"commandCount": "Command count",
+			"users": "Users",
+			"guilds": "Guilds",
+			"memoryUsage": "Memory usage"
+		},
+		"timeDesc": "Check the current time!",
+		"urban": {
+			"desc": "Search up something in the urban dictionary!",
+			"noArgs": "What to search for?",
+			"definition": "Definition",
+			"example": "Example",
+			"noResult": "No definition was found for {word}"
+		},
+		"user": {
+			"desc": "Get information about a specific user!",
+			"flags": "Flags",
+			"noFlags": "This user doesn't have any flags!",
+			"nickname": "Nickname",
+			"noNickname": "This user doesn't have a nickname set in this server!",
+			"currentApp": "Current application",
+			"noApp": "This user isn't in any applications at the moment!",
+			"status": "Status",
+			"accountCreation": "Account creation date",
+			"serverJoin": "Current server join date",
+			"roles": "Roles",
+			"noRoles": "This user doesn't have any roles!"
+		},
+		"weather": {
+			"desc": "Get weather data for a specific city!",
+			"noArgs": "Give a city to retrieve weather data from!",
+			"embed": {
+				"temperature": "Tempreature",
+				"temperatureFeelsLike": "Temperature Feels Like...",
+				"pressure": "Pressure",
+				"humidity": "Humidity",
+				"windSpeed": "Wind Speed",
+				"windDirection": "Wind Direction",
+				"cloudiness": "Cloudiness"
+			}
+		}
+	}
+}
