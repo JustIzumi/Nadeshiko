@@ -25,9 +25,6 @@ module.exports.run = async (client, message, args, utils) => {
     )
     .setColor('RANDOM')
     .setFooter(`Requested by: ${message.author.tag}`, message.author.avatarURL({ dynamic: true }))
-
-    const translate = require('../../functions/translate')
-    console.log(translate('errors.cooldown.desc', { time: 30 }, message));
 }
 
 module.exports.config = {
