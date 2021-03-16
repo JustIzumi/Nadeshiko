@@ -8,12 +8,13 @@
 _**Let's start**_
 
 ## 1. Clone the repository
-*Make sure `git` is installed locally on your system! If, it isn't, then you can install it **[here](https://git-scm.com/downloads)***
+*Make sure `git` is installed locally on your system! If it isn't, then you can install it **[here](https://git-scm.com/downloads)***
 
 You can easily clone the repository using git's `clone` command!
-Open up a command prompt window and run this command in the drive or folder you want to clone the repository into:
 
-```sh
+Open up a command prompt window and run this command in the folder you want to the code to be cloned into:
+
+```
 git clone https://github.com/szyven/nadeshiko.git
 ```
 
@@ -37,8 +38,7 @@ Just open up `launcher.cmd` and then choose option `3`
 ## 5. Start the bot
 This step is the easiest
 
-Just open up the `launcher.cmd` file, and type in `1` or `2` when it asks you to choose an option!
-That's it!
+Just open up the `launcher.cmd` file, and type in `1` or `2` when it asks you to choose an option! That's it!
 
 # Links
 
