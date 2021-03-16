@@ -25,7 +25,7 @@ git clone https://github.com/szyven/nadeshiko.git
 
 *If the TypeScript compiler is not installed, then you can do that by running `node i -g typescript`!*
 
-## 3. Create environmental variables (`.env`)
+## 3. Environmental variables
 
 Create a `.env` file in your root folder, and fill it in accoding to the template you can find in the file `.env.example`
 
