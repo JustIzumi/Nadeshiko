@@ -15,7 +15,7 @@
     "moment": "^2.29.1",
     "mongoose": "^5.11.14",
     "node-fetch": "^2.6.1",
-    "topgg-autoposter": "^1.1.6"
+    "topgg-autoposter": "^2.0.0"
   },
   "scripts": {},
   "author": "szyven",
